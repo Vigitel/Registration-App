@@ -1,0 +1,58 @@
+/* src/screens/MyId.css */
+.myid-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    width: 320px;
+    text-align: left;
+  }
+  
+  .myid-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .myid-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .myid-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .myid-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .myid-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #9b59b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .myid-form button:hover {
+    background: #8e44ad;
+  }
+  
+  .myid-message {
+    margin-top: 15px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .myid-info {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    border-radius: 6px;
+  }
+  

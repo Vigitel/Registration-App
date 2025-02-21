@@ -1,0 +1,51 @@
+/* src/screens/RegisterScreen.css */
+.register-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    width: 350px;
+    text-align: left;
+  }
+  
+  .register-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .register-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background: #27ae60;
+  }
+  
+  .register-message {
+    margin-top: 15px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+  
